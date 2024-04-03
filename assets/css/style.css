@@ -4,12 +4,13 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins;
 }
-.main_container{
+/* .main_container{
     max-width: 1350px;
     width: 100%;
     margin: auto;
-}
+} */
 .header_container{
     margin: auto;
     display: flex;
@@ -64,9 +65,10 @@ body{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    width: 85%;
+    width: 88%;
     height: 70px;
     margin-top: 5px;
+    margin-bottom: -20px;
 }
 .container_2 a{
     text-decoration: none;
