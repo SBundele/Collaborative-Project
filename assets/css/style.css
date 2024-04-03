@@ -137,3 +137,59 @@ body{
     margin-top: 3px;
     opacity: 90%;
 }
+
+.card > .card-img > div:nth-child(2) {
+    background: linear-gradient(285deg, rgb(46, 164, 224), rgb(49, 198, 132));
+    color: #fff;
+    font-family: Poppins;
+    padding: 5px 10px;
+    border-radius: 3px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.card>.card-img>div:nth-child(3){
+    position: absolute;
+    right: 8px;
+    top: 15px;
+}
+.card-content{
+    display: flex;
+    justify-content: space-between;
+}
+.card-content > div:first-child{
+    padding-top: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.card-content>div:first-child > p{
+    text-transform: uppercase; 
+    font-weight: 400;
+    font-size: 13px;
+}
+.card-content>div:first-child > h2{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 0;
+}
+.card-content>div:last-child{
+    padding-top: 8px;
+}
+.fixed-section{
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+}
+.fixed-section > button{
+    padding: 0px 7px;
+    border: none;
+    border-radius: 5px;
+}
+.fixed-section > button > img{
+    width: 50px;
+    height: 28px;
+}
+.fixed-section > img{
+    display: block;
+    margin-left: 10px;
+    width: 60px;
+}
