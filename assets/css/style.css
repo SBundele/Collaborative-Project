@@ -5,7 +5,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-.products{
+.main{
+    position: relative;
     max-width: 1320px;
     margin: 3rem auto;
 }
@@ -55,4 +56,23 @@
 }
 .card-content>div:last-child{
     padding-top: 8px;
+}
+.fixed-section{
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+}
+.fixed-section > button{
+    padding: 0px 7px;
+    border: none;
+    border-radius: 5px;
+}
+.fixed-section > button > img{
+    width: 50px;
+    height: 28px;
+}
+.fixed-section > img{
+    display: block;
+    margin-left: 10px;
+    width: 60px;
 }
