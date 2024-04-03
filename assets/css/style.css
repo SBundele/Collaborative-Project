@@ -2,7 +2,7 @@
 
 body{
     margin: 0;
-    padding: ;
+    padding: 0;
 }
 .main_container{
     max-width: 1350px;
@@ -32,7 +32,6 @@ body{
 }
 .left_div{
     width: 180px;
-    border: 1px solid red;
 }
 .left_div a{
     margin-right: 8px;
@@ -66,7 +65,7 @@ body{
     justify-content: space-between;
     width: 85%;
     height: 70px;
-    border: 2px dotted red;
+    margin-top: 5px;
 }
 .container_2 a{
     text-decoration: none;
@@ -80,7 +79,6 @@ body{
 }
 .left_c2{
     width: 650px;
-    border: 1px solid greenyellow;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -91,18 +89,15 @@ body{
 }
 .right_c2{
     width: 450px;
-    border: 1px solid greenyellow;
-
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .search_bar{
-    border: 2px dotted black;
-    width: 150px;
-    height: 40px;
+    border-bottom: 2px solid rgb(58, 58, 58);
+    width: 170px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,7 +117,9 @@ body{
 .search_bar i{
     font-size: 25px;
     margin-right: 10px;
-    margin-left: 15px;
+    margin-left: -5px;
+    margin-right: 10px;
+    opacity: 80%;
 }
 .search_bar input{
     width: 90px;
